@@ -72,11 +72,11 @@ function Form() {
                 <div  className="checkBoxWrapper">
                     <label className="textLabel">Please choose the service(s) you need: </label><br />                   
                     <input type="checkbox" id="service1" name="vehicle1" value="Admin" />
-                    <label for="vehicle1"> Administrative Professional Services</label><br />
+                    <label className="checkLabel" for="vehicle1">Administrative Professional Services</label><br />
                     <input type="checkbox" id="service2" name="vehicle2" value="Graphic" />
-                    <label for="vehicle2"> Graphic Design Services</label><br />
+                    <label className="checkLabel" for="vehicle2">Graphic Design Services</label><br />
                     <input type="checkbox" id="service3" name="vehicle3" value="Software" />
-                    <label for="vehicle3"> Software Developer Services</label><br />
+                    <label className="checkLabel" for="vehicle3">Software Developer Services</label><br />
                 </div>
                 <div className="inputWrapper">
                     <br />
