@@ -1,15 +1,16 @@
 import NavBar from "../Components/NavBar";
-
+import Footer from "../Components/Footer";
 
 function GrapDesign() {
-    
-  
-    return (
-      <>
-       <NavBar />
-        <p>GrapDesign</p>
-      </>
-    )
-  }
-  
-  export default GrapDesign;
+
+
+  return (
+    <>
+      <NavBar />
+      <p>GD</p>
+      <Footer />
+    </>
+  )
+}
+
+export default GrapDesign;

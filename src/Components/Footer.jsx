@@ -1,10 +1,14 @@
-import Form from "../Components/Form"
+import FooterNav from "./FooterNav";
+
 
 function Footer() {
 
     return (
         <>
-            <Form />
+            <div className="footerNav">
+                
+                <FooterNav />
+            </div>
         </>
     )
 }
