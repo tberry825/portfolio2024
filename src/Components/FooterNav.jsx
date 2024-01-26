@@ -9,8 +9,8 @@ function FooterNav() {
             <footer>
                 <div className="logoLink">
                     <Link to="/logo">
-                    {/* <img src="src/assets/Logo1.png" alt="Logo" className="logo" /> */}
-                    <img src="src/assets/Logo2.png" alt="Logo" className="logo" />
+                    <img src="src/assets/Logo1.png" alt="Logo" className="logo" />
+                    {/* <img src="src/assets/Logo2.png" alt="Logo" className="logo" /> */}
                     </Link>
                 </div>
                 <div className="NavFooter">
