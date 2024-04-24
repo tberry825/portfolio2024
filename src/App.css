@@ -1,5 +1,16 @@
+
+@font-face {
+  font-family: Amalfi Coast, montserrat, The Bold Font;
+  src: url('./assets/Amalfi\ Coast.ttf')
+       url('./assets/THE\ BOLD\ FONT\ -\ FREE\ VERSION\ -\ 2023.otf')
+       url('./assets/Montserrat-Regular.otf')
+      
+}
+
+
 /* NavBar */
-header {
+.navContainer {
+  background: linear-gradient(to right, #ffffff,#ffffff,#f2d7c2);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,6 +31,8 @@ header {
 
 .NavLogoLink img {
   width: 50%;
+  margin-top: 25px;
+  margin-right: 25px;
 }
 
 .navLink a {
@@ -31,8 +44,95 @@ a {
   color: inherit;
 }
 
+
+/* Home page */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: url("./assets/PortfolioBackground.jpg");
+  height: 100vh;
+  width: 100vw;
+}
+
+.heroText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+ 
+}
+
+.heroText .welcomeText{
+  font-size: 100px;
+  font-family: Amalfi coast;
+  margin-top: -150px;
+  margin-left: 180px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.heroText .tapText{
+  font-size: 150px;
+  font-family: THE BOLD FONT;
+  margin-top: -175px;
+  margin-left: 400px;
+}
+
+.heroText .heroTextTitle{
+  font-size: 30px;
+  font-family: Montserrat;
+  margin-top: -150px;
+  margin-left: 240px;
+  text-align: center;
+}
+
+.heroImage {
+  display: flex;
+}
+
+.leftSideHeroImage {
+ margin-left: 30px;
+}
+
+/* .buttonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+.heroButton {
+  align-items: center;
+ margin: auto;
+  font-size: 20px;
+  /* margin-left: 230px;
+  margin-top: 10px; */
+}
+
+.introductionHero {
+  display: flex;
+  flex-direction: row;
+  background-color: #f3c5be;
+  /* margin: auto; */
+}
+
+.introText {
+  margin: 50px 50px 0px 50px;
+  font-size: 27px;
+  font-family: montserrat;
+}
+
+.spanIntroText {
+  font-family: Amalfi Coast;
+  font-size: 30px;
+}
+
+
+
+
 /* Footer Nav */
-footer {
+.footerContainer {
+  background: linear-gradient(to top, #ffffff,#ffffff,#f3c6b3);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -42,19 +142,29 @@ footer {
   padding: 10px 30px;
 }
 
-footer.NavFooter {
-  display: flex;
-  flex-direction: row;
-}
-
 .logoLink {
-  margin-top: 40px;
-}
-
-footer.contactLink {
   display: flex;
   flex-direction: row;
+  
 }
+
+/* .footerContainer .NavFooter {
+  display: flex;
+  flex-direction: row;
+} */
+
+/* .logo {
+
+} */
+
+/* .logoLink {
+  margin-top: 40px;
+} */
+
+/* footer.contactLink {
+  display: flex;
+  flex-direction: row;
+} */
 
 /* Form */
 .formContainer {

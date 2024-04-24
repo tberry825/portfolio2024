@@ -3,7 +3,7 @@ import './App.css'
 import Home from "./Pages/Home"
 import AdProf from "./Pages/AdProf"
 import GrapDesign from "./Pages/GrapDesign"
-import SoftDev from "./Pages/SoftDev"
+import Frontend from "./Pages/Frontend"
 import Portfolio from "./Pages/Portfolio"
 import Contact from "./Pages/Contact";
 
@@ -18,7 +18,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/adprof" element={<AdProf />} />
           <Route path="/grapdesign" element={<GrapDesign />} />
-          <Route path="/softdev" element={<SoftDev />} />
+          <Route path="/frontend" element={<Frontend />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />              
         </Routes>
