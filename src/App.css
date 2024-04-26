@@ -12,21 +12,25 @@
 .navContainer {
   background: linear-gradient(to right, #ffffff,#ffffff,#f2d7c2);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  height: 60px;
-  box-shadow: 1px 1px 3px 3px;
-  padding: 10px 60px;
-  margin: 20px 10px;
-  /* margin-top: 20px; */
+  height: 80px;
+  box-shadow: 1px 1px 2px 2px;
+  padding: 5px 60px;
+  margin: auto;
+  width: 100%;
 }
 
 .navLink {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 60px;
   /* box-shadow: 1px 1px 3px 3px; */
+}
+
+.navLink :hover {
+  color:#eb7b3a
 }
 
 .NavLogoLink img {

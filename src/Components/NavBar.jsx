@@ -9,7 +9,7 @@ function NavBar() {
           <div className="NavLogoLink">
             <Link to="/">
               <img src="src/assets/TapLogo2024.png" alt="Logo" className="logo" />
-              {/* <img src="src/assets/Logo2.png" alt="Logo" className="logo" />           */}
+              {/*<img src="src/assets/Logo2.png" alt="Logo" className="logo" />*/}
             </Link>
           </div>
           <div className="navLink">

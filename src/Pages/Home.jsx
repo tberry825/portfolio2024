@@ -36,22 +36,23 @@ function Home() {
         </div>
       </section>
       <section className="introductionHero">
-        <div>
+        <div className="imageContainer">
           <img
             className="leftSideHeroImage"
             src={meportfolioIntro}
             alt="my pic"
           />
         </div>
-        <div>
+        <div className="textContainer">
           <p className="introText">
             Hello, I'm{" "}
             <span className="spanIntroText">
               <strong>Tanesha Berry</strong>
             </span>
             .<br />
-            <br /> I bring over 5 years of expertise as a Administrative
-            Professional and over 30+ years in corporate America to the table.{" "}
+            <br /> What I do to help make your business run better is... <br />
+            <br />I bring over 5 years of expertise as a Administrative
+            Professional and over 30+ years in corporate America to the table.
             <br />
             <br />
             With a keen eye for detail and a knack for organization, I excel in
@@ -64,11 +65,15 @@ function Home() {
             effective collaboration. <br />
             <br />
             Moreover, I also have a Degree in Graphic Design, and an extensive
-            knowledge if Frontend Development making me a versatile and valuable
-            addition to your team. Let's work together to streamline your
+            knowledge of Frontend Development making me a versatile and valuable
+            addition to your team. <strong>Let's work together </strong>to streamline your
             operations and achieve your goals.
           </p>
+          <button>Read More</button>
         </div>
+      </section>
+      <section>
+
       </section>
       <Footer />
     </>
