@@ -3,8 +3,14 @@
   font-family: Amalfi Coast, montserrat, The Bold Font;
   src: url('./assets/Amalfi\ Coast.ttf')
        url('./assets/THE\ BOLD\ FONT\ -\ FREE\ VERSION\ -\ 2023.otf')
-       url('./assets/Montserrat-Regular.otf')
-      
+       url('./assets/Montserrat-Regular.otf')      
+}
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: ;
 }
 
 
@@ -56,7 +62,7 @@ a {
   justify-content: space-between;
   background-image: url("./assets/PortfolioBackground.jpg");
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .heroText {
