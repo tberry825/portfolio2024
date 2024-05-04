@@ -1,28 +1,25 @@
-
 @font-face {
   font-family: Amalfi Coast, montserrat, The Bold Font;
-  src: url('./assets/Amalfi\ Coast.ttf')
-       url('./assets/THE\ BOLD\ FONT\ -\ FREE\ VERSION\ -\ 2023.otf')
-       url('./assets/Montserrat-Regular.otf')      
+  src: url("./assets/Amalfi\ Coast.ttf")
+    url("./assets/THE\ BOLD\ FONT\ -\ FREE\ VERSION\ -\ 2023.otf")
+    url("./assets/Montserrat-Regular.otf");
 }
 
 .homeContainer {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: ;
+  background-image: url("./assets/PortfolioBackground.jpg") no-repeat;
 }
-
 
 /* NavBar */
 .navContainer {
-  background: linear-gradient(to right, #ffffff,#ffffff,#f2d7c2);
+  background: linear-gradient(to right, #ffffff, #ffffff, #f2d7c2);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   height: 80px;
-  box-shadow: 1px 1px 2px 2px;
-  padding: 5px 60px;
+  /* box-shadow: 1px 1px 2px 2px; */
   margin: auto;
   width: 100%;
 }
@@ -36,7 +33,7 @@
 }
 
 .navLink :hover {
-  color:#eb7b3a
+  color: #eb7b3a;
 }
 
 .NavLogoLink img {
@@ -54,7 +51,6 @@ a {
   color: inherit;
 }
 
-
 /* Home page */
 .container {
   display: flex;
@@ -69,76 +65,73 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  margin: auto;
- 
+  margin-top: 20px;
 }
 
-.heroText .welcomeText{
-  font-size: 100px;
+.heroText .welcomeText {
+  font-size: 60px;
+  margin-top: 80px;
+  margin-bottom: 20px;
   font-family: Amalfi coast;
-  margin-top: -150px;
-  margin-left: 180px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.heroText .tapText{
-  font-size: 150px;
+p.tapText {
+  font-size: 80px;
   font-family: THE BOLD FONT;
-  margin-top: -175px;
-  margin-left: 400px;
+  margin-top: -40px;
+  margin-left: 150px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.heroText .heroTextTitle{
-  font-size: 30px;
+.heroText .heroTextTitle {
+  font-size: 20px;
   font-family: Montserrat;
-  margin-top: -150px;
-  margin-left: 240px;
+  margin-bottom: 60px;
+  margin-left: 50px;
   text-align: center;
 }
 
-.heroImage {
+.heroImage img {
   display: flex;
+  height: 100vh;
 }
 
-.leftSideHeroImage {
- margin-left: 30px;
-}
-
-/* .buttonContainer {
+.buttonContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-} */
+  align-items: center;
+  margin: auto;
+  margin-right: 81px;
+  margin-top: -11px;
+}
 
 .heroButton {
-  align-items: center;
- margin: auto;
-  font-size: 20px;
-  /* margin-left: 230px;
-  margin-top: 10px; */
+  font-size: 15px;
+  margin-bottom: 20px;
+  padding: 20px 30px;
+  border-radius: 30px;
 }
 
 .introductionHero {
   display: flex;
   flex-direction: row;
   background-color: #f3c5be;
-  /* margin: auto; */
 }
 
-.introText {
-  margin: 50px 50px 0px 50px;
-  font-size: 27px;
-  font-family: montserrat;
+.imageContainer {
+  width: 50%;
+  height: 50vh;
 }
 
-.spanIntroText {
+
+
+
+
+/* .spanIntroText {
   font-family: Amalfi Coast;
   font-size: 30px;
-}
-
-
-
+} */
 
 /* Footer Nav */
 .footerContainer {
@@ -154,27 +147,8 @@ a {
 
 .logoLink {
   display: flex;
-  flex-direction: row;
-  
+  flex-direction: row; 
 }
-
-/* .footerContainer .NavFooter {
-  display: flex;
-  flex-direction: row;
-} */
-
-/* .logo {
-
-} */
-
-/* .logoLink {
-  margin-top: 40px;
-} */
-
-/* footer.contactLink {
-  display: flex;
-  flex-direction: row;
-} */
 
 /* Form */
 .formContainer {
@@ -182,7 +156,6 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* border: solid black 5px; */
   border-radius: 20px;
   box-shadow: 1px 1px 3px 3px;
   margin: 10px 400px;
@@ -197,10 +170,6 @@ h1 {
   text-shadow: 3px 3px lightgrey  
 }
 
-/* h2 {
-  text-shadow: 3px 3px  lightgrey
-} */
-
 .inputWrapper {
   display: flex;
   flex-direction: column;
@@ -211,19 +180,10 @@ h1 {
   margin-top: 20px;
 }
 
-/* .checkBoxWrapper.textLabel  {
-  font-size: 20px;
-  margin-top: 20px;
-} */
-
 .inputField {
   height: 20px;
   margin-bottom: 20px;
 }
-
-/* select.inputField {
-  height: 20px;
-} */
 
 .textInput {
   height: 161px;
@@ -234,7 +194,6 @@ textarea {
   height: 190px;
   width: 471px;
 }
-
 
 .checkLabel {
   font-size: 20px;
