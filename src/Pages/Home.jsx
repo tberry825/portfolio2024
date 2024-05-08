@@ -14,7 +14,7 @@ function Home() {
             <p className="welcomeText">Welcome to</p>
             <p className="tapText">T.A.P.S</p>
             <p className="heroTextTitle">
-              Tanesha's Admin Professional Services, <br />
+              <strong>T</strong>anesha's <strong>A</strong>dmin <strong>P</strong>rofessional <strong>S</strong>ervices <br />
               Please choose a Service.
             </p>
             <div className="buttonContainer">
@@ -39,7 +39,7 @@ function Home() {
             <img src={portfoliopng1} alt="my pic" />
           </div>
         </section>
-        <section className="introductionHero">
+        {/* <section className="introductionHero">
           <div className="imageContainer">
             <img
               className="leftSideHeroImage"
@@ -77,8 +77,8 @@ function Home() {
             </p>
             <button>Read More</button>
           </div>
-        </section>
-        <section></section>
+        </section> */}
+        
       </div>
       <Footer />
     </>

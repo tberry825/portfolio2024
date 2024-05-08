@@ -5,11 +5,13 @@
     url("./assets/Montserrat-Regular.otf");
 }
 
+/* Desktop */
 .homeContainer {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-image: url("./assets/PortfolioBackground.jpg") no-repeat;
+  background-image: url("./assets/PortfolioBackground.jpg");
+  background-repeat: no-repeat;
 }
 
 /* NavBar */
@@ -56,7 +58,6 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-image: url("./assets/PortfolioBackground.jpg");
   height: 100vh;
   width: 100%;
 }
@@ -66,25 +67,28 @@ a {
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
+  width: 50%;
 }
 
-.heroText .welcomeText {
-  font-size: 60px;
-  margin-top: 80px;
+p.welcomeText {
+  font-size: 110px;
+  margin-top: 30px;
   margin-bottom: 20px;
+  margin-right: 20px;
+  padding-left: 100px;
   font-family: Amalfi coast;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 p.tapText {
-  font-size: 80px;
+  font-size: 100px;
   font-family: THE BOLD FONT;
-  margin-top: -40px;
+  margin-top: -80px;
   margin-left: 150px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.heroText .heroTextTitle {
+p.heroTextTitle {
   font-size: 20px;
   font-family: Montserrat;
   margin-bottom: 60px;
@@ -95,6 +99,8 @@ p.tapText {
 .heroImage img {
   display: flex;
   height: 100vh;
+  width: 100%;
+  /* margin-right: 50px; */
 }
 
 .buttonContainer {
@@ -209,4 +215,19 @@ textarea {
   border-radius: 20px;
   font-size: 15px;
   margin-top: 15px;
+}
+
+
+/* tablet */
+
+@media screen and (max-width: 768px) {
+
+}
+
+
+
+/* mobile */
+
+@media screen and (max-width: 480px) {
+  
 }
